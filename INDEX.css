@@ -1,0 +1,43 @@
+body{
+    background-color: gray
+}
+
+#header{
+    background-color: ghostwhite;
+    display : block;
+    height: 40px;
+    width: 100%;
+    float: right;
+    margin: 0%;
+}
+
+
+
+ul{
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    margin: 0px 60px;
+}
+
+
+a{
+    margin: 110px;
+    float: left;
+    display: inline-block;
+    background-color:red;
+    color: blue;
+    padding: 20px 60px;
+    margin:0px;
+}
+
+a:active, a:visited{
+    color:blue; 
+}
+
+a:hover{
+    color: chartreuse;
+    background-color: blue;
+    padding: auto;
+    margin: auto;
+}
